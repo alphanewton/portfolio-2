@@ -38,7 +38,7 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              icon={<Image src={item.icon} alt="" height={100} width={100} />}
+              icon={<Image src={item.icon} alt="" height={100} width={100} className="rounded-full"/>}
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
